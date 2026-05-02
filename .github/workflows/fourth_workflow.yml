@@ -6,4 +6,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: not-correct
-        run: somethingnotcorrect
+        run: somethingnotcorrectt
