@@ -1,0 +1,10 @@
+name: Workflow Command
+on: [push]
+
+jobs:
+    testing-wf:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Setting an error message
+              run: echo "::error::Missing something"
+              
